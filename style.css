@@ -800,6 +800,30 @@ nav {
 .item-list:hover{
     color: rgb(31, 30, 30);
 }
+
+.social-media-icons{
+    width: 201.7px;
+    height: 22px;
+}
+.media-icons{
+    cursor: pointer;
+    margin-right: 4px;
+    width: 22px;
+    height: 22px;
+}
+.app-store-icon-bottom-div{
+    margin-top: 25px;
+    width: 201.7px;
+    height: 92px;
+}
+.app-store-image-bottom{
+    cursor: pointer;
+    width: 137px;
+    height: 40px;
+}
+.app-store-image-bottom:nth-child(2){
+    margin-top: 13px;
+}
 .footer-text{
     font-size: 13px;
     font-weight: 300;
