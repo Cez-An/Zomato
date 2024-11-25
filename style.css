@@ -1,0 +1,688 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(252, 252, 252);
+}
+
+header {
+    background-image: url('images/10001.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 440px;
+    position: relative;
+
+}
+
+.nav-bar-icon {
+
+    width: 10px;
+    height: 10px;
+
+}
+
+.get-app-link a {
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-heading {
+
+    margin-top: 20px;
+    display: flex;
+    width: 72.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 2;
+    line-height: 27px;
+
+}
+
+
+
+.nav-item-padding {
+    padding-right: 35px;
+}
+
+.zomato-logo {
+    margin-top: -50px;
+    width: 300px;
+    height: 60px;
+    object-fit: contain;
+
+}
+
+.search-bar {
+    width: 780px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.logo-below-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+    font-stretch: 100%;
+}
+
+.vertical-bar {
+    width: 2px;
+    height: 20px;
+    background-color: #cfcfcf;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-icon {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.kochi-box {
+    width: 178px;
+    height: 21px;
+    border: 0;
+    border-color: #fff;
+    outline: none;
+
+
+}
+
+.search-box {
+    width: 475px;
+    height: 52px;
+    border: 0;
+    border-color: #fff;
+    outline: none;
+}
+
+.down-arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vertical-bar {
+    margin-right: 18px;
+}
+
+.search-symbol {
+    margin-right: 18px;
+}
+
+.placeholder-text {
+    font-size: 15px;
+}
+
+.zomato-logo-onwards {
+    width: 100%;
+    height: 389px;
+    /* background-color: rgba(250, 235, 215, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*  ----------------------------------------------------------------------------- */
+.second-section-main-body-div {
+    width: 100%;
+    height: 1408px;
+    display: flex;
+    /* always note that only with disply flex justify content aligin items works*/
+    justify-content: center;
+    /* background-color: #4f4f4f; */
+
+}
+
+.parent-div-1100x1232 {
+    width: 1100px;
+    height: 1232px;
+    /* background-color: rgb(109, 166, 131); */
+}
+
+.second-section-parent {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey; */
+}
+
+.second-section {
+    width: 1100px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(131, 101, 62); */
+
+}
+
+.second-section-image-div-1 {
+    width: 540px;
+    height: 240px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    /* background-color: rgb(0, 0, 0); */
+}
+.pop-up:hover{
+    transform: scale(1.05);
+}
+.image-1 {
+    width: 540px;
+    height: 158px;
+    background-image: url('images/10029.webp');
+    background-position: bottom 55% left 50%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.second-section-image1-text {
+    box-sizing: border-box;
+    border-top: none;
+    border: #e4e0e0 0.1px solid;
+    border: 0px 1px 1px 1px gray solid;
+    width: 540px;
+    height: 82px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+
+}
+
+.image-1-text-align {
+    padding: 10px 20px 10px 20px;
+}
+
+.h1-text-1 {
+    font-size: 20px;
+    ;
+    font-weight: 500;
+    line-height: 32px;
+    color: #363636;
+
+
+}
+
+.h2-text-2 {
+    color: #4f4f4f;
+    font-size: 17px;
+    font-weight: 10;
+    line-height: 24px;
+    word-spacing: 1px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.second-section-image-div-2 {
+    width: 540px;
+    height: 240px;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.image-2 {
+    width: 540px;
+    height: 158px;
+    background-image: url('images/10030.webp');
+    background-position: bottom 55% left 50%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.second-section-image2-text {
+    box-sizing: border-box;
+    border: 0px 1px 1px 1px gray solid;
+    width: 540px;
+    height: 82px;
+    border: #e4e0e0 0.1px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+
+}
+
+.image-2-text-align {
+    padding: 10px 20px 10px 20px;
+}
+
+.h1-text-1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #363636;
+
+
+}
+
+.h2-text-2 {
+    color: #4f4f4f;
+    font-size: 17px;
+    font-weight: 10;
+    line-height: 24px;
+    word-spacing: 1px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.collections {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #1C1C1C;
+}
+
+.Explore-curated-lists {
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(54, 54, 54)
+}
+
+.Explore-curated-section {
+    display: flex;
+
+}
+
+.all-collections-in-kochi {
+
+    padding-left: 149px;
+    color: #EF4F5F;
+    cursor: pointer;
+    font-size: 17.2px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.eight-places-parent-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 320px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.collection-image-1 {
+    width: 267.5px;
+    height: 320px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 15px;
+    background-image: url('images/10032.webp');
+    background-position: bottom 20% left 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px -20px 20px black inset;
+
+}
+
+.s-8-places {
+    margin-top: 267px;
+    margin-left: 15px;
+    font-size: 19.5px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#right-arrow {
+    width: 5px;
+    height: 10px;
+    color: #ffffff;
+}
+
+.s7-places {
+    font-size: 15px;
+}
+
+.collection-image-2 {
+    width: 267.5px;
+    height: 320px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 15px;
+    background-image: url('images/10034.webp');
+    background-position: bottom 20% left 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px -20px 20px black inset;
+
+}
+
+.collection-image-3 {
+    width: 267.5px;
+    height: 320px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 15px;
+    background-image: url('images/10036.webp');
+    background-position: bottom 20% left 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px -20px 20px black inset;
+
+}
+
+.collection-image-4 {
+    width: 267.5px;
+    height: 320px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 15px;
+    background-image: url('images/10038.webp');
+    background-position: bottom 20% left 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px -20px 20px black inset;
+
+}
+
+.third-section {
+    margin-top: 120px;
+    width: 1100px;
+    height: 380px;
+    /* background-color: antiquewhite; */
+}
+
+.Popular-localities {
+    font-size: 36px;
+
+}
+
+.kochi {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.small-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 80px;
+    border: #cfcfcf 0.1px solid;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.small-boxes:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+.place-name {
+    width: 300px;
+    height: 50px;
+    /* background-color: #9e5858; */
+}
+
+.place-right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 50px;
+    /* background-color: #4f4f4f; */
+}
+
+#rgt-arrow {
+    font-size: 15px;
+}
+
+.popular-places {
+    padding-left: 5px;
+    font-size: 20px;
+    /* font-weight: light 300; */
+    color: #1C1C1C;
+}
+
+.no-of-places {
+    font-size: 16px;
+    padding-left: 5px;
+    color: #363636;
+}
+
+.small-box-container {
+    width: 1100px;
+    height: 305px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.see-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 80px;
+    border: #cfcfcf 0.1px solid;
+    border-radius: 10px;
+    background-color: white;
+   
+}
+.see-more-container:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
+}
+
+.get-zomato-app-parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    background-color: rgb(255, 251, 247);
+}
+
+.get-zomato-app-div {
+    display: flex;
+    width: 900px;
+    height: 450px;
+    /* background-color: #cfcfcf; */
+}
+
+.mobile-box{
+    width: 410px;
+    height: 450px;
+    /* background-color: #EF4F5F; */
+}
+.form{
+    width: 490px;
+    height: 450px;
+    /* background-color: #759857; */
+}
+.mob-image{
+    width: 410px;
+    height: 450px;
+}
+.get-app-heading{
+    font-size: 44px;
+    font-weight: 400;
+    color: #1C1C1C;
+    
+}
+.form-inner-container{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 450px;
+    height: 349px;
+    /* background-color: #759857; */
+}
+.we-will-send{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300; 
+    margin-bottom: 25px;  
+}
+.lable-text{
+    font-size: 16px;
+    color: #1C1C1C;
+}
+.download-app-from{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9C9C9C;
+}
+
+.appstore-icon-container{
+    width: 450px;
+    height: 40px;
+
+}
+.playstore-icon{
+    width: 137px;
+    height: 40px;
+}
+.appstore-icon{
+    margin-left: 20px;
+    width: 137px;
+    height: 40px;
+}
+.lable-div{
+    width: 230px;
+    height: 38.9px;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-and-button{
+    width: 450px;
+    height: 63px;
+}
+.email-input{
+    font-size: 15px;
+    line-height: 48px;
+    width: 292px;
+    outline: none;
+    background-color: #FFFFFF;
+	border: 1px solid #cfcfcf;
+    border-radius: 6px;
+	box-sizing: border-box;
+}
+.share-app-button{
+    width: 150px;
+    height: 48px;
+    background-color: #e03546;
+    outline: none;
+    border-radius: 6px;
+    border-color: transparent;
+    cursor: pointer;
+
+}
+.share-app-button:hover{
+    background-color: #d91a2d;
+}
+.share-app-button-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+.radio-color{
+    accent-color: #e03546;
+    
+}
+.Explore-options-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 492px;
+    /* background-color: #918b8b; */
+}
+.Explore-options-div{
+    width: 1100px;
+    height: 492px;
+}
+.Explore-options-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #363636;
+}
+.Explore-options-list{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 24px 20px 24px;
+    width: 1098px;
+    height: 66px;
+    background-color: white;
+    border: #cfcfcf 0.1px solid;
+}
+.Explore-options-list-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.last-section-container{
+    width: 100%;
+    height: 508px;
+    background-color: #f8f8f8;
+}
+.last-section-inner-div{
+
+    width: 1100px;
+    height: 438px;
+    background-color: #2f0e0e;
+
+}
